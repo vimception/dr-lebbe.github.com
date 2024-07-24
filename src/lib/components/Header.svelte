@@ -4,9 +4,9 @@
     import {page as currentPage} from '$app/stores';
     import logo from "$lib/images/logo.svg";
     import Menu from "$lib/components/Menu.svelte";
-    import { navigating } from '$app/stores';
+    import {navigating} from '$app/stores';
 
-    $: if($navigating) closeMenu();
+    $: if ($navigating) closeMenu();
 
     let y: number;
     let open: boolean;
@@ -59,11 +59,25 @@
                 </a>
             {/if}
 
+            <!-- Afspraak -->
+            {#if $currentPage.url.pathname === '/afspraak'}
+                <a class="font-albert text-lg uppercase text-leb-blue-400" href="/afspraak">
+                    Afspraak
+                    <span class="block max-w-full h-0.5 bg-leb-blue-400"></span>
+                </a>
+            {:else}
+                <a class="font-albert text-lg uppercase text-leb-grey-950 group transition duration-100 hover:text-leb-blue-400"
+                   href="/afspraak">
+                    Afspraak
+                    <span class="block max-w-0 group-hover:max-w-full transition-all duration-150 h-0.5 bg-leb-blue-400"></span>
+                </a>
+            {/if}
+
         </div>
 
         <div class="-mr-2 md:hidden">
             <Hamburger bind:open --border-radius="0px" --color="#353B40" --layer-height="2px"/>
-            <Menu bind:open />
+            <Menu bind:open/>
         </div>
 
     </div>

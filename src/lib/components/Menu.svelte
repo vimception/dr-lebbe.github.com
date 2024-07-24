@@ -5,6 +5,7 @@
     const links = {
         "Over": "/",
         "Praktijk": "/praktijk",
+        "Afspraak": "/afspraak"
     }
 </script>
 
