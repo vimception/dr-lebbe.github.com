@@ -19,7 +19,9 @@
 <div class="bg-white">
     <div class="max-w-screen-lg mx-auto flex">
 
-        <div class="flex flex-col px-8 my-10 w-full text-leb-grey-950 font-jost text-lg">
+        <div class="flex flex-col px-8 mb-10 w-full text-leb-grey-950 font-jost text-lg">
+
+            <h2 class="text-xl font-medium text-center mt-6 mb-6 md:text-start">Locatie</h2>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
@@ -52,15 +54,15 @@
             </div>
 
             <div class="mt-16 space-y-6">
-                <h2 class="font-medium text-center mb-4 md:mb-2 md:text-start">Parkeren</h2>
+                <h2 class="text-xl font-medium text-center mb-4 md:mb-2 md:text-start">Parkeren</h2>
 
                 <p>Er is steeds voldoende parkeergelegenheid ter hoogte van het Grootseminarie, of aan de overzijde van het water langs de Langerei.</p>
 
                 <p>Opgepast: in de binnenstad geldt elke dag betalend parkeren van 9u tot 20u. U kunt betalen aan een automaat, via SMS of <a class="underline" href="https://4411.be/nl-be/download-app" target="_blank">de 4411 app</a>. Meer informatie kunt u vinden op <a class="underline" href="https://www.brugge.be/mobiliteit/parkeren/vind-een-parking/parkeerautomaten" target="_blank">de website van stad Brugge</a>.</p>
             </div>
 
-            <div class="mt-16">
-                <h2 class="font-medium text-center mb-4 md:mb-2 md:text-start">Betalen</h2>
+            <div class="mt-16 space-y-6">
+                <h2 class="text-xl font-medium text-center mb-4 md:mb-2 md:text-start">Betalen</h2>
 
                 <p>Gelieve steeds elektronisch te betalen. Dit is veiliger. U kunt vlot betalen met <a class="underline" href="https://www.payconiq.be/nl/particulier/mobiel-betalen" target="_blank">Payconic</a> of bankkaart.</p>
             </div>

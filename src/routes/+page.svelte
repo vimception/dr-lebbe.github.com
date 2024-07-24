@@ -6,7 +6,7 @@ import avatar from "$lib/images/avatar.png";
     <title>Dr. Lebbe</title>
 
     <meta property="og:url" content="https://dr-lebbe.be">
-    <meta property="og:title" content="Dr. Lebbe - Over">
+    <meta property="og:title" content="Dr. Lebbe">
     <meta property="og:description" content="Voorstelling Dr. Lebbe, gynaecologie en verloskunde">
 </svelte:head>
 
@@ -21,10 +21,10 @@ import avatar from "$lib/images/avatar.png";
 
             <div class="grow md:ml-12 mt-12 md:mt-0 flex flex-col space-y-6 text-leb-grey-950 font-jost text-lg">
 
-                <h1 class="font-medium text-center mb-4 md:mb-2 md:text-start">Welkom op de website van Dr. Barbara Lebbe</h1>
+                <h1 class="text-xl font-medium text-center mb-4 md:mb-2 md:text-start">Welkom op de website van Dr. Barbara Lebbe</h1>
 
                 <p>
-                    Dr. Barbara Lebbe is afkomstig uit Brugge. Zelf geboren in het AZ Sint-Jan Brugge is het nu haar genoegen vrouwen te begeleiden tijdens hun zwangerschap en bevalling in hetzelfde ziekenhuis.
+                    Dr. Barbara Lebbe is afkomstig uit Brugge. Zelf geboren in het <a class="underline" href="https://www.azsintjan.be/" target="_blank">AZ Sint-Jan</a> Brugge is het nu haar genoegen vrouwen te begeleiden tijdens hun zwangerschap en bevalling in hetzelfde ziekenhuis.
                 </p>
 
                 <p>

@@ -1,6 +1,6 @@
 <footer>
 
-    <div class="mt-14 mb-20 flex flex-col items-center text-leb-grey-400">
+    <div class="mt-12 mb-20 flex flex-col items-center text-leb-grey-400">
 
         <div class="w-80 border-b-2 border-leb-grey-400 opacity-50"></div>
 
