@@ -1,38 +1,19 @@
 <script lang="ts">
 
-/*    import {onMount} from 'svelte';
-    import {LeafletMap} from 'svelte-leafletjs';
-    import type { MapOptions} from 'leaflet';*/
-
-import Leaflet from '$lib/components/Leaflet.svelte';
+    import Leaflet from '$lib/components/Leaflet.svelte';
 
     import praktijk1 from "$lib/images/praktijk_1.jpeg";
     import praktijk2 from "$lib/images/praktijk_2.jpeg";
     import praktijk3 from "$lib/images/praktijk_3.jpeg";
 
-/*    const mapOptions: MapOptions = {
-        center: [1.364917, 103.822872],
-        zoom: 11,
-    };
-
-    let isMounted: boolean;
-    let leafletMap: LeafletMap;
-
-    onMount(() => {
-        isMounted = true;
-
-        if (leafletMap) {
-/!*            const map = leafletMap.getMap();
-            if (map) {
-                map.fitBounds([[1.266835, 103.796403], [1.232988, 103.854861]]);
-            }*!/
-        }
-    });*/
-
 </script>
 
 <svelte:head>
     <title>Praktijk | Dr. Lebbe</title>
+
+    <meta property="og:url" content="https://dr-lebbe.be/praktijk">
+    <meta property="og:title" content="Dr. Lebbe - Praktijk">
+    <meta property="og:description" content="Locatie, parking & betalen bij Dr. Lebbe">
 </svelte:head>
 
 <div class="bg-white">

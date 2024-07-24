@@ -4,6 +4,10 @@ import avatar from "$lib/images/avatar.png";
 
 <svelte:head>
     <title>Dr. Lebbe</title>
+
+    <meta property="og:url" content="https://dr-lebbe.be">
+    <meta property="og:title" content="Dr. Lebbe - Over">
+    <meta property="og:description" content="Voorstelling Dr. Lebbe, gynaecologie en verloskunde">
 </svelte:head>
 
 <div class="bg-white">
