@@ -26,3 +26,13 @@ Serving the production build:
 cd build
 python3 -m http.server
 ```
+
+## Publish
+
+Merge the dist folder into te live branch:
+
+```
+git subtree split --branch live --prefix dist/
+git checkout live
+git push -u origin live
+```
