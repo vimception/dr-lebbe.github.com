@@ -15,11 +15,11 @@
             <div class="space-y-6">
                 <h2 class="text-xl font-medium text-center mt-6 mb-6 md:text-start">Praktisch</h2>
 
-                <p>Afspraken kunnen geboekt worden via onderstaande link.</p>
+                <p>U kunt een afspraak aanvragen via onderstaande formulier.</p>
 
-                <a class="cursor-default inline-block bg-leb-grey-100 hover:bg-leb-grey-100 active:bg-leb-grey-100 transition duration-100 text-leb-grey-400 text-lg pl-8 pr-6 py-3 rounded-md">
+                <!--<a class="cursor-default inline-block bg-leb-grey-100 hover:bg-leb-grey-100 active:bg-leb-grey-100 transition duration-100 text-leb-grey-400 text-lg pl-8 pr-6 py-3 rounded-md">
                     Afspraak maken <i class="material-symbols-rounded align-text-bottom ml-1">open_in_new</i>
-                </a>
+                </a>-->
 
                 <p>Wij vragen om aan te geven waarvoor u wilt langskomen. Zo kan correct ingeschat worden hoeveel tijd er nodig is voor elke patiënt en hoe dringend dit is. U kunt eventueel uw voorkeur voor een maandag of donderdag doorgeven.</p>
 
@@ -29,6 +29,10 @@
 
                 <div class="p-4 bg-leb-yellow-50 rounded-md">
                     <p>Voor dringende zaken neemt u best contact op met het AZ Sint-Jan: via het secretariaat (<a class="underline" href="tel:003250452750">050/45.27.50</a>) of het verloskwartier (<a class="underline" href="tel:003250452700">050/45.27.00</a>) indien u zwanger bent en een dringend probleem heeft. </p>
+                </div>
+
+                <div class="pt-2">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSciTVC-BUj3A-fm3Cy-Eko_TLxlgRSdKoyazug1D_c35pvDGQ/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
 
             </div>
